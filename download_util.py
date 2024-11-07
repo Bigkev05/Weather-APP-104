@@ -1,24 +1,3 @@
-#
-#   File: download_util.py
-#   Author: Lawrence Buckingham, Donna Kingsbury, Colin Fidge
-#   Copyright: Queensland University of Technology (QUT) 2024
-#
-#   This file defines three utility functions which may be used to download
-#   data via HTTP, HTTPS, or FTP.
-#
-#   download_bytes
-#       Attempts to download a resource, and if successful returns the raw
-#       binary representation of the resource as a sequence of bytes.
-#
-#   download_string
-#       Attempts to download a resource, and if successful returns the content
-#       of the resource decoded into a string.
-#
-#   download_file
-#       Attempts to download a resource, and if successful saves the raw
-#       binary representation to a file.
-#
-
 def download_bytes(url: str) -> bytes:
     '''
     Attempts to download the resource specified by parameter url.
