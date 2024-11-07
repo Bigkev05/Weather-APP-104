@@ -1,14 +1,3 @@
-#
-#   File: browser_util.py
-#   Author: Lawrence Buckingham, Donna Kingsbury, Colin Fidge
-#   Copyright: Queensland University of Technology (QUT) 2024
-#
-#   Provides a utility function which attempts to open a HTML document in a 
-#   system-independent manner.
-#   
-#   This relies on in-built command line tools which (eg. due to configuration 
-#   differences) may not work as intended.
-#
 
 class LocalHtmlException(Exception):
     '''
